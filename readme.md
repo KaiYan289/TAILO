@@ -54,7 +54,7 @@ The first script generates part of data for the task-agnostic data of antmaze en
 wandb.login(key=XXXXXXX)
 wandb.init(entity=XXXXXXX, project= ...
 ```
-change XXXXXXX to your key and username for wandb. See wandb official website https://docs.wandb.ai/ for this. We use XXXXXXX for anonimity.
+change XXXXXXX to your key and username for wandb. See wandb official website https://docs.wandb.ai/ for this.
 
 5. run the code to reproduce results; see the next section for command.
 
