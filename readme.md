@@ -22,14 +22,23 @@ This repository is the code of Trajectory-Aware Imitation Learning from Observat
 **Mujoco210 is required for all environments,** and we run our experiments with CUDA 11.3. Below are the dependency for python packages:
 
 d4rl == 1.1
+
 dm-control == 1.0.7
+
 ema-pytorch == 0.2.1
+
 gym == 0.21.0
+
 h5py == 2.10.0
+
 mujoco-py == 2.1.2.14
+
 numpy == 1.23.1
+
 torch == 1.12.0
+
 tqdm
+
 wandb
 
 By default, OpenGL is used for the D4RL [2] environments. However, sometimes OpenGL will be problematic on headless machines; to fix this, try to set MUJOCO_GL environment variable to 'egl' or 'osmesa'.
