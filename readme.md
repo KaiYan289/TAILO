@@ -101,7 +101,7 @@ python main.py --env_name ant --PU 3 --auto 1 --seed 1000000 --skip_suffix_TS mi
 python main.py --env_name antmaze --PU 3 --auto 1 --seed 1000000 --skip_suffix_TS mismatch
 ```
 
-### Perormance Comparison Against ReCOIL (Sec. F.2)
+### Performance Comparison Against ReCOIL (Sec. F.2)
 
 **Random + Few Expert:**
 ```
